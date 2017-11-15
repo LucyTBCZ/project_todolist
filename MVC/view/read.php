@@ -21,10 +21,9 @@
 		<li><button class="btn btn-default" onclick="location.href='edit.php?id=<?=$element["elementId"]?>'">Edit</a></button>
 		</li>
 
-
-
 		<li><button class="btn btn-default" onclick="location.href='delete.php?id=<?=$element['elementId']?>'"> Delete</a></button></li>
-
+		
+		<li><button type="button" name="retour" class="btn btn-warning" onclick="location.href='accueil.php'">Cancel</button></li>
 	</ul>
 
 </body>

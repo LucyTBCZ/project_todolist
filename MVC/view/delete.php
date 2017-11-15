@@ -16,7 +16,7 @@
 
 		<form method="POST" class="form-inline">
 			<input type="submit" class="btn btn-danger" name="delete" value="Delete">
-
+			<button type="button" name="retour" class="btn btn-warning" onclick="location.href='accueil.php'">Cancel</button>
 		</form>
 
 	</article>

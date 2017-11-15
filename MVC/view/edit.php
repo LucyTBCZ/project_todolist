@@ -24,8 +24,8 @@
 				<label for="description">Description:</label>
 				<input type="text" name="descri">
 			</section>
-			<button type="submit" class="btn btn-warning" name="edit">EDIT</button>
-
+			<button type="submit" class="btn btn-info" name="edit">EDIT</button>
+			<button type="button" name="retour" class="btn btn-warning" onclick="location.href='accueil.php'">Cancel</button>
 		</form>
 
 	</article>
