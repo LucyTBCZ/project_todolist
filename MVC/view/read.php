@@ -18,12 +18,12 @@
 
 	<ul class='list-inline titre_browse read'>
 
-		<li><button class="btn btn-default" onclick="location.href='edit.php?id=<?=$element["elementId"]?>'">Edit</a></button>
+		<li><a href="edit.php?id=<?=$element['elementId']?>" class="btn btn-default">Edit</a>
 		</li>
 
-		<li><button class="btn btn-default" onclick="location.href='delete.php?id=<?=$element['elementId']?>'"> Delete</a></button></li>
+		<li><a href="delete.php?id=<?=$element['elementId']?>" class="btn btn-default"> Delete</a></button></li>
 		
-		<li><button type="button" name="retour" class="btn btn-warning" onclick="location.href='accueil.php'">Cancel</button></li>
+		<li><button type="button" name="retour" class="btn btn-warning" onclick="location.href='index.php'">Cancel</button></li>
 	</ul>
 
 </body>

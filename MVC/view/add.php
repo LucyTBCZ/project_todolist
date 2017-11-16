@@ -21,7 +21,7 @@
 		<section class="form-group"><label for="description"> Description:</label>
 		<input type="text" name="descri"></section>
 		<input type="submit" name="add" class="btn btn-success" value="Add" >
-		<button type="button" name="retour" class="btn btn-warning" onclick="location.href='accueil.php'">Cancel</button>
+		<button type="button" name="retour" class="btn btn-warning" onclick="location.href='index.php'">Cancel</button>
 	</form>
 
 </body>

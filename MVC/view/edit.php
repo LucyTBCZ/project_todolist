@@ -25,7 +25,7 @@
 				<input type="text" name="descri">
 			</section>
 			<button type="submit" class="btn btn-info" name="edit">EDIT</button>
-			<button type="button" name="retour" class="btn btn-warning" onclick="location.href='accueil.php'">Cancel</button>
+			<button type="button" name="retour" class="btn btn-warning" onclick="location.href='index.php'">Cancel</button>
 		</form>
 
 	</article>

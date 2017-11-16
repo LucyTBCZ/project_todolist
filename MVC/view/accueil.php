@@ -23,6 +23,11 @@
 		    <ul class="nav navbar-nav">
 		     	<li><a href="browse.php"> -> Browse all tasks</a></li>
 				<li><a href="add.php"> -> Add a new task</a></li>
+				<?php
+				if (isset($_SESSION['login'], $_SESSION['password'])){ ?>
+
+				<li><a href="deconnexion.php"> -> Deconnexion</a></li>
+				<?php ;} ?>
 		    </ul>
 		</nav>
 

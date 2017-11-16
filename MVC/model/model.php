@@ -53,8 +53,8 @@ function read(){
 }
 
 function edit(){
-	$co_db_statement=getDatabaseConnection()->prepare("UPDATE t_elements SET elementName=?, elementDescription=? WHERE elementId=?");
-	$co_db_statement->execute(array($_POST["nom"], $_POST["descri"], $_GET["id"]));
+		$co_db_statement=getDatabaseConnection()->prepare("UPDATE t_elements SET elementName=?, elementDescription=? WHERE elementId=?");
+		$co_db_statement->execute(array($_POST["nom"], $_POST["descri"], $_GET["id"]));
 }
 
 function delete(){

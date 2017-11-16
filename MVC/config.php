@@ -4,6 +4,6 @@
 $host='localhost';
 $dbn="todolist";
 $db_login="root";
-$db_pwd="secret"; // rentrez votre mot de passe de base de données sql.
+$db_pwd="secret";
 
 ?>
