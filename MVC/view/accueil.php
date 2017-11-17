@@ -23,7 +23,7 @@
 		    <ul class="nav navbar-nav">
 		     	<li><a href="browse.php"> -> Browse all tasks</a></li>
 				<li><a href="add.php"> -> Add a new task</a></li>
-				<li><a href="deconnexion.php"> -> Deconnexion</a></li>
+				<!--<li><a href="deconnexion.php"> -> Deconnexion</a></li>-->
 		    </ul>
 		</nav>
 
