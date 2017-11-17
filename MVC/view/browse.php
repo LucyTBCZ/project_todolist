@@ -24,8 +24,10 @@
 						</span> 
 					</a>
 				</li>
-
+			
 			<?php endforeach; ?>
+
+				<center><button type="button" name="retour" class="btn btn-warning titre_browse" onclick="location.href='index.php'">Cancel</button></center>
 
 		</ul>
 
